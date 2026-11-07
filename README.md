@@ -150,27 +150,24 @@ It is used as the dataset reference for developing and exploring the resume scre
 
 ## 📁 Project Structure
 
+
 ```text
 AI-Resume-Screening/
 │
-├── app.py
-│   └── Streamlit-based web application
+├── App/
+│   └── Streamlit application and web interface
 │
-├── index.html
-│   └── Standalone web application prototype
+├── Notebooks/
+│   └── Jupyter notebooks containing the ML pipeline,
+│       data preprocessing, and exploratory analysis
 │
-├── Resume_Screening.ipynb
-│   └── ML pipeline and exploratory data analysis
-│
-├── requirements.txt
-│   └── Project dependencies
-│
-├── candidate_ranking_results.csv
-│   └── Exported candidate screening results
+├── output/
+│   └── Generated candidate screening and ranking results
 │
 └── README.md
-    └── Project documentation
+    └── Project overview, methodology, features, and setup instructions
 ```
+
 
 ## 🚀 Installation and Setup
 
