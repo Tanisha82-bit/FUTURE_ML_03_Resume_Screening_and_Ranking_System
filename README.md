@@ -155,14 +155,13 @@ It is used as the dataset reference for developing and exploring the resume scre
 AI-Resume-Screening/
 │
 ├── App/
-│   └── Streamlit application and web interface
+│   └── app.py
 │
 ├── Notebooks/
-│   └── Jupyter notebooks containing the ML pipeline,
-│       data preprocessing, and exploratory analysis
+│   └── Resume_Screening.ipynb
 │
 ├── output/
-│   └── Generated candidate screening and ranking results
+│   └── candidate_ranking_results.csv
 │
 └── README.md
     └── Project overview, methodology, features, and setup instructions
